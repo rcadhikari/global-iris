@@ -1,0 +1,21 @@
+#banner {
+	padding-left: 10px;
+	background-color: #10151C;
+	height: 170px;
+}
+#wrapper {
+	background-color: #dfd;
+	padding: -10px;
+	margin: -10px;
+}
+#infoBar {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+/* For mobile view */
+.mview {
+	padding: -10px;
+	margin: -10px;
+}
