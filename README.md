@@ -42,8 +42,8 @@ NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contactin
 
 In my case, I have written the resonse function which retain their payment reponses and auto post to your provided return url through the auto form submission script.
 
-* At last, you can access GI payment responses on $_POST variables from the provided return_url, where you can verify the payment and update your database/system accordingly.
+* At last, you can access GI payment responses on `$_POST` variables from the provided `return_url`, where you can verify the payment and update your database/system accordingly.
 
-In fact, the return_url can be passed via request from with MERCHANT_RESPONSE_URL parameter ( but do not include http://www.your_domain.com) while submitting the payment request form. 
+In fact, the return_url can be passed via request from with `MERCHANT_RESPONSE_URL` parameter ( but do not include http://www.your_domain.com) while submitting the payment request form. 
 
 Please refer [here](https://github.com/rcadhikari/global-iris/blob/master/confirmation.php) to find a sample code to verify and confirm the payment.
