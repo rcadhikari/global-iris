@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: RC.Adhikari
+ * User: RC Adhikari
  * Date: 06/03/2015
  * Time: 16:38
  */
