@@ -29,22 +29,22 @@ In fact, you have to ask them to provide below details (including login info) fo
 
 Please ask all the **-** bits to GI Team.
 
-Then, you need to create the request form page, response page and confirmation page.
+Next steps would be to create the request form page, response page and confirmation page.
 
-2. So, create request form to connect to Global IRIS payment system,
+* So, create request form to connect to Global IRIS payment system,
    sample form can be found here (refer a function):
    https://github.com/rcadhikari/global-iris/blob/master/request.php
 
-3. Next, please create a response page somewhere on your project folder, I would suggest to create on root folder, e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' (https://github.com/rcadhikari/global-iris/blob/master/reponse.php) OR ''http://www.your_domain.com/payment/reponse'.
+* Next, please create a response page somewhere on your project folder, I would suggest to create on root folder, e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' (https://github.com/rcadhikari/global-iris/blob/master/reponse.php) OR ''http://www.your_domain.com/payment/reponse'.
 Sample response page code can be found here... https://github.com/rcadhikari/global-iris/blob/master/reponse.php
 
 NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contacting them when you are deploying the payment function. The response url is the page which will display after clicking "Pay Now".<br />
 
-4. After clicking "Pay Now", the GI will access the RESPONSE PAGE URL and display on the page ( in fact, the visible URL would be their URL), which means GI indirectly access our response page and display it from their end. 
+* After clicking "Pay Now", the GI will access the RESPONSE PAGE URL and display on the page ( in fact, the visible URL would be their URL), which means GI indirectly access our response page and display it from their end. 
 
 Therefore, I have written the resonse function which retain their payment reponses and auto post to your provided return url through the auto form submission script.
 
-5. At last, you can access GI payment responses on $_POST variables from the provided return_url, where you can verify the payment and update your database/system accordingly.
+* At last, you can access GI payment responses on $_POST variables from the provided return_url, where you can verify the payment and update your database/system accordingly.
 
 In fact, the return_url can be passed via request from with MERCHANT_RESPONSE_URL parameter ( but do not include http://www.your_domain.com) while submitting the payment request form. 
 
