@@ -40,7 +40,7 @@ NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contactin
 
 * After clicking "Pay Now", the GI will access the RESPONSE PAGE URL and display on the page ( in fact, the visible URL would be their URL), which means GI indirectly access our response page and display it from their end. 
 
-Therefore, I have written the resonse function which retain their payment reponses and auto post to your provided return url through the auto form submission script.
+In my case, I have written the resonse function which retain their payment reponses and auto post to your provided return url through the auto form submission script.
 
 * At last, you can access GI payment responses on $_POST variables from the provided return_url, where you can verify the payment and update your database/system accordingly.
 
