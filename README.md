@@ -22,8 +22,8 @@ In fact, you have to ask them to provide below details (including login info) fo
 | Merchant ID:  | -			|	-	|
 | Secret hash string: | -	|	-	|
 | Account:    | internet	|	internet	|
-| Below is the login detail to for HSBC reporting system |
-| Reportin URL: | https://reporting.globaliris.com/login | 	https://reporting.sandbox.globaliris.com/login	|
+| | *Below is the login detail to for HSBC reporting system* | |
+| Reporting URL: | https://reporting.globaliris.com/login | 	https://reporting.sandbox.globaliris.com/login	|
 | Username: 	| -			|	-	|
 | Password: 	| -			|	-	|
 
