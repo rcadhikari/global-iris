@@ -14,7 +14,7 @@ In fact, I have recently went through the process and thought would be helpful i
 
 Developer documention can be found here, pdf here.., I have found the documentation is bit outdated, but please contact & confirm with them if necessary.
 
-In fact, you have to ask them to provide below details (including login info) for both environment (sandbox and live) :
+In fact, you have to ask them to provide below details (including login info) for both environment (sandbox and live):
 
 | Modes  | Live/Production | Test(sandbox) |
 | :------------ |:---------------| :-----|
@@ -28,24 +28,25 @@ In fact, you have to ask them to provide below details (including login info) fo
 | Password: 	| -			|	-	|
 
 
-Then, use create the request form page, response page and confirmation page.
+Then, you need to create the request form page, response page and confirmation page.
 
-<br />
+2. So, create request form to connect to Global IRIS payment system,
+   sample form can be found here (refer a function):
+   https://github.com/rcadhikari/global-iris/blob/master/request.php
+
+3. Next, please create a response page somewhere on your project folder, I would suggest to create on root folder,       e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' (https://github.com/rcadhikari/global-iris/blob/master/reponse.php) 
+   OR ''http://www.your_domain.com/payment/reponse'.
+
+  Sample response page code can be found here... https://github.com/rcadhikari/global-iris/blob/master/reponse.php
+
 NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contacting them when you are deploying the payment function. The response url is the page which will display after clicking "Pay Now".<br />
-<br />
-So, please setup a reponse page or url on your server for reponse page,<br />
-for eg. create a page 'http://www.your_domain.com/hsbc_reponse.php' ( https://github.com/rcadhikari/global-iris/blob/master/reponse.php) <br />
-or ''http://www.your_domain.com/payment/reponse'.<br />
-<br />
-On then that reponse page or url, add the below content;<br />
-<br />
 
-Once you create the above response page or response url and ask to update at their end for above repose page or url.<br />
-<br />
-After completing the above steps succfully, then, when someone go through the payment, then payment response from GI will return to your above reponse page or url which will automatically redirected back to your provided return url through the auto form submission script.<br />
-<br />
-Finally, above redirection will go to your provided return_url with payment responses on $_POST variables, which can be used to verify the payment and update your database/system accordingly.<br />
-<br />
-In fact, I have added the above response page to auto redirect to any provided URL which indeed can be control by passing url on MERCHANT_RESPONSE_URL parameter (do not include http://www.your_domain.com) while submitting the payment request form. If you don't need that, you can skip that step.<br />
-<br />
-The below function will verify the confirm the payment by processing the payment response data.<br />
+4. After clicking "Pay Now", the GI will access the RESPONSE PAGE URL and display on the page ( in fact, the visible URL would be their URL), which means GI indirectly access our response page and display it from their end. 
+
+Therefore, I have written the resonse function which retain their payment reponses and auto post to your provided return url through the auto form submission script.
+
+5. At last, you can access GI payment responses on $_POST variables from the provided return_url, where you can verify the payment and update your database/system accordingly.
+
+In fact, the return_url can be passed via request from with MERCHANT_RESPONSE_URL parameter ( but do not include http://www.your_domain.com) while submitting the payment request form. 
+
+Please refer https://github.com/rcadhikari/global-iris/blob/master/confirmation.php to verify and confirm the payment.
