@@ -10,7 +10,7 @@ Integration the Global IRIS (HSBC) payment system into your website can be kinda
 
 In fact, I have recently went through the process and thought would be helpful if you looking to work on it as well.
 
-* First of all, please ask to Global IRIS (GI) technical team to configure the Sandbox account and live account into their system with below detail. You can contact them via direct number +44 845 702 3344 (Option 6)* or email;
+* First of all, please ask to Global IRIS (GI) technical team to configure the Sandbox account and live account into their system with below detail. You can contact them via direct number *+44 845 702 3344 (Option 6)** or [email](globaliris@realexpayments.com);
 
 Developer documention can be found here, pdf here.., I have found the documentation is bit outdated, but please contact & confirm with them if necessary.
 
