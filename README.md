@@ -12,7 +12,7 @@ In fact, I have recently went through the process and thought would be helpful i
 
 * First of all, please ask to Global IRIS (GI) technical team to configure the Sandbox account and live account into their system with below detail. You can contact them via direct number *+44 845 702 3344 (Option 6)** or [email](mailto:globaliris@realexpayments.com);
 
-Developer documention can be found here, pdf here.., I have found the documentation is bit outdated, but please contact & confirm with them if necessary.
+Developer documention can be found [here](https://resourcecentre.globaliris.com/products.html?id=197), pdf [here](https://resourcecentre.globaliris.com/documents/pdf.html?id=135).., I have found the documentation is bit outdated, but please contact & confirm with them if necessary.
 
 In fact, you have to ask them to provide below details (including login info) for both environment (sandbox and live):
 
