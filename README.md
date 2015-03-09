@@ -16,27 +16,17 @@ Developer documention can be found here, pdf here.., I have found the documentat
 
 In fact, you have to ask them to provide below details (including login info) for both environment (sandbox and live) :
 
-For Live Mode
---------------
-Action URL:     https://hpp.globaliris.com/pay
-Merchant ID:    -
-Secret hash string: -
-Account:    internet
-Below is the login detail to for HSBC reporting system
-Reportin URL: 	https://reporting.globaliris.com/login
-Username: 	-
-Password: 	-
+| Modes  | Live/Production | Test(sandbox) |
+| :------------ |:---------------| :-----|
+| Action URL	| https://hpp.globaliris.com/pay | https://hpp.sandbox.globaliris.com/pay |
+| Merchant ID:  | -			|	-	|
+| Secret hash string: | -	|	-	|
+| Account:    | internet	|	internet	|
+| Below is the login detail to for HSBC reporting system |
+| Reportin URL: | https://reporting.globaliris.com/login | 	https://reporting.sandbox.globaliris.com/login	|
+| Username: 	| -			|	-	|
+| Password: 	| -			|	-	|
 
-For Test Mode
---------------
-Action URL:     https://hpp.sandbox.globaliris.com/pay
-Merchant ID:    -
-Secret hash string: -
-Account:    internet
-Below is the login detail to for HSBC reporting system
-Reportin URL: 	https://reporting.sandbox.globaliris.com/login
-Username: 	-
-Password: 	-
 
 Then, use create the request form page, response page and confirmation page.
 
