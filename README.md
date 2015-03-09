@@ -31,10 +31,10 @@ Please ask all the **-** bits to GI Team.
 
 Next steps would be to create the request form page, response page and confirmation page.
 
-* So, create request form to connect to Global IRIS payment system, sample code can be found [here] (https://github.com/rcadhikari/global-iris/blob/master/request.php)
+* So, create request form to connect to Global IRIS payment system, sample code can be found [here](https://github.com/rcadhikari/global-iris/blob/master/request.php)
 
 * Next, please create a response page somewhere on your project folder, I would suggest to create on root folder, e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' OR ''http://www.your_domain.com/payment/reponse'.
-Response page sample code can be found [here] (https://github.com/rcadhikari/global-iris/blob/master/reponse.php)
+Response page sample code can be found [here](https://github.com/rcadhikari/global-iris/blob/master/reponse.php)
 
 NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contacting them when you are deploying the payment function. The response url is the page which will display after clicking "Pay Now".<br />
 
