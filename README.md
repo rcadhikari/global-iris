@@ -48,4 +48,4 @@ Therefore, I have written the resonse function which retain their payment repons
 
 In fact, the return_url can be passed via request from with MERCHANT_RESPONSE_URL parameter ( but do not include http://www.your_domain.com) while submitting the payment request form. 
 
-Please refer https://github.com/rcadhikari/global-iris/blob/master/confirmation.php to verify and confirm the payment.
+Please refer [here](https://github.com/rcadhikari/global-iris/blob/master/confirmation.php) to verify and confirm the payment.
