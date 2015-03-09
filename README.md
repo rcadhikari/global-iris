@@ -10,7 +10,7 @@ Integration the Global IRIS (HSBC) payment system into your website can be kinda
 
 In fact, I have recently went through the process and thought would be helpful if you looking to work on it as well.
 
-1. First of ally, please ask to Global IRIS (GI) technical team to configure the Sandbox account and live account into their system with below detail. You can contact them via direct number +44 845 702 3344 (Option 6)* or email;
+* First of all, please ask to Global IRIS (GI) technical team to configure the Sandbox account and live account into their system with below detail. You can contact them via direct number +44 845 702 3344 (Option 6)* or email;
 
 Developer documention can be found here, pdf here.., I have found the documentation is bit outdated, but please contact & confirm with them if necessary.
 
@@ -27,6 +27,7 @@ In fact, you have to ask them to provide below details (including login info) fo
 | Username: 	| -			|	-	|
 | Password: 	| -			|	-	|
 
+Please ask all the **-** bits to GI Team.
 
 Then, you need to create the request form page, response page and confirmation page.
 
@@ -34,10 +35,8 @@ Then, you need to create the request form page, response page and confirmation p
    sample form can be found here (refer a function):
    https://github.com/rcadhikari/global-iris/blob/master/request.php
 
-3. Next, please create a response page somewhere on your project folder, I would suggest to create on root folder,       e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' (https://github.com/rcadhikari/global-iris/blob/master/reponse.php) 
-   OR ''http://www.your_domain.com/payment/reponse'.
-
-  Sample response page code can be found here... https://github.com/rcadhikari/global-iris/blob/master/reponse.php
+3. Next, please create a response page somewhere on your project folder, I would suggest to create on root folder, e.g. create a page 'http://www.your_domain.com/hsbc_reponse.php' (https://github.com/rcadhikari/global-iris/blob/master/reponse.php) OR ''http://www.your_domain.com/payment/reponse'.
+Sample response page code can be found here... https://github.com/rcadhikari/global-iris/blob/master/reponse.php
 
 NOTE: It is require to <b>pass </b>the RESPONSE PAGE URL to GI team by contacting them when you are deploying the payment function. The response url is the page which will display after clicking "Pay Now".<br />
 
